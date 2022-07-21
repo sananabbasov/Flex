@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .nav-item ul {
+    display: flex;
+}
+
+
+header .nav-item ul li {
+    list-style: none;
+} */
+
+
+.boxes{
+    /* height: 100vh;
+    color: #fff;
+    display: flex; */
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* align-items: center;
+    justify-content: center; */
+    /* justify-content: end;
+    align-items: end; */
+    /* justify-content: start;
+    align-items: end; */
+    /* justify-content: space-between;
+    flex-direction: column-reverse; */
+}
+/* 
+.boxes .box{
+    width: 30%;
+    height: 150px;
+}   
+
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.grey{
+    background-color: grey;
+}
+.crimson{
+    background-color: crimson;
+} */
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: #571F9C;
+    color: #fff;
+}
+
+header .navbar-top{
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar-top ul{
+    display: flex;
+}
+header .navbar-top ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+header .navbar-top ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .navbar{
+    background: #fff;
+  
+}
+
+header .navbar .navbar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .navbar .navbar-items .logo img{
+    width: 200px;
+    height: 60px;
+}
+
+header .navbar .navbar-items .nav-items ul{
+    display: flex;
+}
+
+header .navbar .navbar-items .nav-items ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navbar .navbar-items .nav-items ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
